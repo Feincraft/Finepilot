@@ -1,0 +1,25 @@
+{
+  "Releases":[
+    {
+      "App": "Feinpilot",
+      "Version": "0.5",
+      "Notes": "",
+      "Mandatory": "false",
+      "Path": ""
+    },
+    {
+      "App": "Feinpilot",
+      "Version": "0.6",
+      "Notes": "",
+      "Mandatory": "false",
+      "Path": ""
+    },
+    {
+      "App": "Feinpilot",
+      "Version": "0.7",
+      "Notes": "",
+      "Mandatory": "false",
+      "Path": ""
+    }
+  ]
+}
