@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Feincraft.GlobalCopilot.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Feincraft.GlobalCopilot.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <applicationSettings>
+        <Feincraft.GlobalCopilot.Properties.Settings>
+            <setting name="AzPayloadD3" serializeAs="String">
+                <value>{
+  "prompt": "$prompt",
+  "max_tokens": 1000,
+  "temperature": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0,
+  "top_p": 0.5,
+  "stop": null
+}</value>
+            </setting>
+            <setting name="AzPath" serializeAs="String">
+                <value>openai/deployments/$model/completions?api-version=2022-12-01</value>
+            </setting>
+            <setting name="OaEndpoint" serializeAs="String">
+                <value>https://api.openai.com/v1/chat/completions</value>
+            </setting>
+            <setting name="OaPayloadD3" serializeAs="String">
+                <value>{
+  "model": "text-davinci-003",
+  "prompt": "$prompt",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}</value>
+            </setting>
+            <setting name="InstanceID" serializeAs="String">
+                <value>{AE2233B5-7EB7-4523-A2F0-689D8CCCF75C}</value>
+            </setting>
+        </Feincraft.GlobalCopilot.Properties.Settings>
+    </applicationSettings>
+    <userSettings>
+        <Feincraft.GlobalCopilot.Properties.Settings>
+            <setting name="ApiKey" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AutoPaste" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="LoadingSysTray" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="LoadingCursor" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Modifier" serializeAs="String">
+                <value>3</value>
+            </setting>
+            <setting name="HotKey" serializeAs="String">
+                <value>C</value>
+            </setting>
+            <setting name="AzureOpenAI" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="FirstRun" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="FullEndpoint" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AzEndpoint" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AzModelName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="OaPayloadGpt35t" serializeAs="String">
+                <value>{
+     "model": "gpt-3.5-turbo",
+     "messages": [{"role": "user", "content": "$prompt"}],
+     "max_tokens": 1000,
+     "temperature": 0.7
+   }</value>
+            </setting>
+            <setting name="AzPayloadGpt35t" serializeAs="String">
+                <value>{
+  "prompt": "&lt;|im_start|&gt;user\n$prompt\n&lt;|im_end|&gt;\n",
+  "max_tokens": 1000,  
+  "temperature": 0.5,
+  "frequency_penalty": 0,
+  "presence_penalty": 0,
+  "top_p": 0.95,
+  "stop": null
+}
+</value>
+            </setting>
+        </Feincraft.GlobalCopilot.Properties.Settings>
+    </userSettings>
+</configuration>
