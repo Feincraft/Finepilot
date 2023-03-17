@@ -1,29 +1,25 @@
-{
-  "Releases":[
-    {
-      "App": "Feinpilot",
-      "Version": "0.5",
-      "Notes": "",
-      "Mandatory": "false",
-      "Path": "",
-      "Level": 500
-    },
-    {
-      "App": "Feinpilot",
-      "Version": "0.6",
-      "Notes": "",
-      "Mandatory": "false",
-      "Path": "https://feincraft.files.wordpress.com/2023/03/globalcopilot0.6.zip",
-      "Level": 601
-    },
-    {
-      "App": "Feinpilot",
-      "Version": "0.7",
-      "Notes": "",
-      "Mandatory": "false",
-      "Path": "",
-      "Level": 700
-    }
-  ]
-}
-
+[{
+		"App": "Feinpilot",
+		"Version": "0.5",
+		"Notes": "",
+		"Mandatory": "false",
+		"Path": "",
+		"Level": 500
+	},
+	{
+		"App": "Feinpilot",
+		"Version": "0.6",
+		"Notes": "",
+		"Mandatory": "false",
+		"Path": "https://feincraft.files.wordpress.com/2023/03/globalcopilot0.6.zip",
+		"Level": 601
+	},
+	{
+		"App": "Feinpilot",
+		"Version": "0.7",
+		"Notes": "",
+		"Mandatory": "false",
+		"Path": "",
+		"Level": 700
+	}
+]
